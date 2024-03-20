@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TripBoss</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel = "stylesheet" href = "font/fonts.css">
+
+        <link rel = "stylesheet" href = "css/normalize.css">
+
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Trip<span>Boss</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Leave Your Footprints</h1>
+                    <p>For quick assistance with your travel needs, our dedicated team is available around the clock to help you with bookings, itinerary planning, and any questions you may have. You can also chat with us live on our website for instant support. We're here to make your travel experience seamless and enjoyable.</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price (Ksh)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+   
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Reo De Janeiro, Brazil
+                            </span>
+                            <div>
+                                <p class = "text">Brazil, a land of samba, soccer, and stunning natural beauty, captivates travelers with its infectious energy and diverse landscapes. From the bustling streets of Rio de Janeiro to the pristine beaches of Fernando de Noronha and the lush Amazon rainforest, Brazil offers a kaleidoscope of experiences waiting to be discovered. Dance to the rhythm of samba during Carnival, marvel at the majestic Iguazu Falls, and immerse yourself in the vibrant culture and traditions of this South American gem. With its warm hospitality and passion for life, Brazil invites travelers to embrace the spirit of adventure and create memories that will last a lifetime.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                North Bondi, Australia
+                            </span>
+                            <div>
+                                <p class = "text"> Australia, the land down under, entices travelers with its rugged Outback, stunning beaches, and vibrant cities. From the iconic Sydney Opera House to the otherworldly landscapes of the Great Barrier Reef and the awe-inspiring Uluru, Australia offers a wealth of natural wonders and cultural experiences to explore. Dive into the turquoise waters of the Whitsunday Islands, embark on a road trip along the Great Ocean Road, and encounter unique wildlife such as kangaroos, koalas, and crocodiles. With its laid-back lifestyle and breathtaking scenery, Australia promises an unforgettable journey filled with adventure, relaxation, and discovery.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text"> Germany, a land of fairy-tale castles, picturesque villages, and rich history, invites travelers to explore its diverse landscapes and vibrant cities. From the bustling streets of Berlin to the romantic Rhine Valley and the charming villages of Bavaria, Germany offers a wealth of experiences for every type of traveler. Discover iconic landmarks such as Neuschwanstein Castle and the Brandenburg Gate, savor traditional cuisine such as bratwurst and sauerkraut, and immerse yourself in the country's rich cultural heritage through its museums, festivals, and traditions. With its efficient infrastructure and warm hospitality, Germany promises a memorable journey filled with history, culture, and adventure.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Khwaeng wat arun, thailand
+                            </span>
+                            <div>
+                                <p class = "text">Thailand, the Land of Smiles, captivates travelers with its dazzling temples, bustling markets, and enchanting landscapes. From the vibrant streets of Bangkok to the tranquil shores of Phuket and the lush jungles of Chiang Mai, Thailand offers a feast for the senses at every turn. Immerse yourself in the rich culture and heritage of this Southeast Asian gem as you explore ancient temples, sample mouthwatering street food, and embark on unforgettable adventures such as elephant trekking and island hopping. With its warm hospitality and boundless charm, Thailand welcomes travelers with open arms and leaves them longing for more.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Italy, the land of pasta, pizza, and unparalleled beauty, beckons travelers with its rich history, vibrant culture, and breathtaking landscapes. From the ancient ruins of Rome to the romantic canals of Venice and the sun-drenched beaches of the Amalfi Coast, Italy offers a diverse range of experiences to suit every traveler's taste. Explore iconic landmarks such as the Colosseum and the Leaning Tower of Pisa, savor delectable cuisine in charming trattorias, and lose yourself in the timeless beauty of Renaissance art and architecture. With its warm hospitality and undeniable charm, Italy promises an unforgettable journey filled with la dolce vita.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">With its crystal-clear waters, pristine beaches, and overwater bungalows, the Maldives is a tropical paradise like no other. Nestled in the heart of the Indian Ocean, this archipelago of islands offers travelers the ultimate escape from the hustle and bustle of everyday life. Dive into the vibrant underwater world teeming with colorful coral reefs and exotic marine life, unwind on powdery white sands, and indulge in world-class luxury at exclusive resorts. Whether you're seeking adventure or relaxation, the Maldives offers a slice of paradise that will leave you spellbound.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text"> We understand that where you stay plays a crucial role in shaping your travel experience, which is why we're committed to offering a diverse range of accommodations to suit every taste and budget. Whether you prefer luxury resorts, boutique hotels, or cozy bed and breakfasts, our platform features a carefully curated selection of accommodations that prioritize comfort, convenience, and exceptional service. From modern amenities to personalized touches, we go the extra mile to ensure that your hotel experience exceeds your expectations, allowing you to relax, recharge, and immerse yourself in the local culture with ease.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Our comprehensive travel guide is your ultimate companion for planning the perfect adventure. Curated by travel experts and seasoned globetrotters, our guide is packed with insider tips, hidden gems, and local recommendations to help you discover the true essence of each destination. From iconic landmarks to off-the-beaten-path experiences, we've got you covered with detailed insights and practical advice for every step of your journey. Whether you're a first-time traveler or a seasoned explorer, our guide will inspire you to explore new horizons and create unforgettable memories wherever you go.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">At our website, we believe that everyone deserves to explore the world without breaking the bank. That's why we work tirelessly to bring you the best deals and discounts on flights, accommodations, and activities. Whether you're planning a budget-friendly getaway or seeking last-minute deals, our platform offers competitive prices that won't compromise on quality. With our transparent pricing and commitment to affordability, you can trust that you're getting the most value for your money, allowing you to travel more and worry less about your wallet.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"I recently booked a group trip through this website, and it exceeded all expectations! Not only did they help us find the perfect destination and accommodations, but they also organized personalized activities that suited everyone's interests. The attention to detail and level of care they provided made our trip truly unforgettable."</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Kevin Wilson</h3>
+                                <p class = "text">Trip to Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text"> "I stumbled upon this website while planning my honeymoon, and I'm so glad I did! From start to finish, the experience was seamless. The staff went above and beyond to ensure every aspect of our trip was perfect, and their insider tips really enhanced our experience. I can't wait to book with them again!"</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ben Davis</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"Thanks to this website, my family and I had the most amazing vacation ever! Their comprehensive travel packages took all the stress out of planning, allowing us to focus on creating lasting memories together. I highly recommend their services to anyone looking for a hassle-free travel experience."</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Jaura Jones</h3>
+                                <p class = "text">Trip to Thailand</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Trip<span>Boss</span>
+                    </a>
+                    <p class = "text">For quick assistance with your travel needs, our dedicated team is available around the clock to help you with bookings, itinerary planning, and any questions you may have. You can also chat with us live on our website for instant support. We're here to make your travel experience seamless and enjoyable.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Thailand</a></li>
+                        <li><a href = "#">Australia</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">Switzerland</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+  
+        <script src = "js/script.js"></script>
+        <script>
+            
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
